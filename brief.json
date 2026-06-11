@@ -1,0 +1,291 @@
+{
+  "run_id": "run-1781141190538",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774825923424-663",
+    "owner_username": "inso",
+    "owner_display_name": "Inso",
+    "count": 3,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Cet outil analyse les contrats immobiliers pour en extraire les informations essentielles, aidant les particu…",
+    "notes": "Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques.\nCible les locataires ou acheteurs potentiels. Utilise le traitement du langage naturel pour résumer les points critiques. Design 'Paper Vintage' pour un sentiment de confiance et d'historique. Structure 'evidence-journal' pour présenter l'analyse de manière structurée.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "",
+    "network_hosting_pool": "",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "new-sites",
+    "provider_space_name": "New Sites",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": false,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "calculator"
+    ],
+    "forced_design_theme": "paper-vintage",
+    "forced_structure_preset": "evidence-journal",
+    "site_idea_title": "Analyseur de Contrats Immobiliers Simplifiés",
+    "site_idea_summary": "Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques."
+  },
+  "site_spec": {
+    "slug": "analyseur-de-contrats-immobiliers-simplifies-1",
+    "theme": {
+      "name": "Paper Vintage",
+      "slug": "paper-vintage",
+      "eyebrow": "Archive Utility",
+      "family": "paper-vintage",
+      "moods": [
+        "calm",
+        "classic",
+        "heritage",
+        "editorial"
+      ],
+      "archetypes": [
+        "generator",
+        "calculator"
+      ],
+      "niches": [
+        "documents",
+        "legal",
+        "leases",
+        "receipts",
+        "contracts"
+      ],
+      "keywords": [
+        "pdf",
+        "document",
+        "template",
+        "receipt",
+        "contract"
+      ],
+      "token_index": [
+        "archive",
+        "calculator",
+        "calm",
+        "classic",
+        "contract",
+        "contracts",
+        "document",
+        "documents",
+        "editorial",
+        "generator",
+        "heritage",
+        "leases",
+        "legal",
+        "paper",
+        "pdf",
+        "receipt",
+        "receipts",
+        "template",
+        "utility",
+        "vintage"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Cormorant Garamond\", serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "showcase",
+      "card_style": "paper",
+      "button_style": "gradient",
+      "decor_style": "paper",
+      "hero_template": "0.94fr 1.06fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 2,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "34px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "#f7ecd6",
+        "surface": "rgba(255,248,235,0.92)",
+        "surface_border": "rgba(122, 74, 34, 0.22)",
+        "text": "#4a2c16",
+        "muted": "#7c5a40",
+        "accent": "#92400e",
+        "accent_alt": "#b45309",
+        "hero_glow": "rgba(146, 64, 14, 0.1)",
+        "button_text": "#fff9f0",
+        "panel_alt": "rgba(255,255,255,0.6)",
+        "shadow": "0 22px 56px rgba(90, 52, 28, 0.12)",
+        "input_fill": "rgba(122,74,34,0.04)"
+      }
+    },
+    "structure": {
+      "name": "Evidence Journal",
+      "slug": "evidence-journal",
+      "hero_variant": "editorial",
+      "proof_variant": "rail",
+      "section_order": [
+        "proof",
+        "seo",
+        "features",
+        "faq"
+      ],
+      "feature_columns": 2,
+      "faq_columns": 2,
+      "family": "editorial-journal",
+      "moods": [
+        "trust",
+        "narrative",
+        "research"
+      ],
+      "archetypes": [
+        "calculator",
+        "generator",
+        "tool"
+      ],
+      "niches": [
+        "legal",
+        "health",
+        "consulting",
+        "compliance"
+      ],
+      "keywords": [
+        "evidence",
+        "journal",
+        "narrative",
+        "proof"
+      ],
+      "token_index": [
+        "calculator",
+        "compliance",
+        "consulting",
+        "editorial",
+        "evidence",
+        "faq",
+        "features",
+        "generator",
+        "health",
+        "journal",
+        "legal",
+        "narrative",
+        "proof",
+        "rail",
+        "research",
+        "seo",
+        "tool",
+        "trust"
+      ]
+    },
+    "render_direction": "editorial-ledger",
+    "render_direction_name": "Editorial Ledger",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Analyseur de Contrats Immobiliers Simplifiés",
+    "tagline": "Votre Contrat sous la Loupe",
+    "description": "Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques.",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Analyser le Contrat",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Editorial Ledger",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Editorial Ledger",
+      "Analyser le Contrat",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "editorial",
+    "faq_topic": "Analyseur de Contrats Immobiliers Simplifiés",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Analyseur de Contrats Immobiliers Simplifiés ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Analyseur de Contrats Immobiliers Simplifiés et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Analyseur de Contrats Immobiliers Simplifiés | Votre Contrat sous la Loupe</title>\n    <meta name=\"description\" content=\"Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques.\">\n    <style>\n        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Merriweather:wght@300;400;700&display=swap');\n\n        :root {\n            --paper-bg: #fdfaf5;\n            --paper-border: #e0d8cc;\n            --ink-color: #3f3f3f;\n            --accent-color: #a87d5b;\n            --light-accent: #d2b48c;\n            --shadow-color: rgba(0, 0, 0, 0.05);\n            --font-serif: 'Playfair Display', serif;\n            --font-sans: 'Merriweather', serif;\n        }\n\n        body {\n            font-family: var(--font-sans);\n            color: var(--ink-color);\n            background-color: #f0f0e8;\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            width: 100%;\n            background-color: var(--paper-bg);\n            border-bottom: 1px solid var(--paper-border);\n            padding: 2rem 0;\n            text-align: center;\n            box-shadow: 0 2px 5px var(--shadow-color);\n            margin-bottom: 2rem;\n        }\n\n        h1 {\n            font-family: var(--font-serif);\n            font-size: 2.8em;\n            color: var(--accent-color);\n            margin-bottom: 0.5rem;\n            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);\n        }\n\n        header p {\n            font-size: 1.1em;\n            max-width: 800px;\n            margin: 0 auto;\n            color: #5a5a5a;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1000px;\n            background-color: var(--paper-bg);\n            border: 1px solid var(--paper-border);\n            box-shadow: 0 4px 10px var(--shadow-color);\n            padding: 2.5rem 3rem;\n            margin-bottom: 2rem;\n            border-radius: 5px;\n            display: flex;\n            flex-direction: column;\n            gap: 2rem;\n        }\n\n        section {\n            background-color: #fffbf5;\n            border: 1px solid #eee;\n            padding: 2rem;\n            border-radius: 4px;\n            box-shadow: inset 0 1px 3px rgba(0,0,0,0.02);\n        }\n\n        h2 {\n            font-family: var(--font-serif);\n            color: var(--accent-color);\n            font-size: 2em;\n            margin-top: 0;\n            border-bottom: 2px solid var(--light-accent);\n            padding-bottom: 0.5rem;\n            margin-bottom: 1.5rem;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.8rem;\n            font-weight: bold;\n            font-size: 1.1em;\n            color: #6a6a6a;\n        }\n\n        textarea {\n            width: calc(100% - 20px);\n            min-height: 200px;\n            padding: 10px;\n            margin-bottom: 1rem;\n            border: 1px solid var(--paper-border);\n            border-radius: 4px;\n            font-family: var(--font-sans);\n            font-size: 1em;\n            resize: vertical;\n            background-color: #fdfdfd;\n        }\n\n        button {\n            background-color: var(--accent-color);\n            color: white;\n            padding: 12px 25px;\n            border: none;\n            border-radius: 5px;\n            font-size: 1.1em;\n            cursor: pointer;\n            transition: background-color 0.3s ease;\n            font-family: var(--font-sans);\n            box-shadow: 0 2px 5px var(--shadow-color);\n        }\n\n        button:hover {\n            background-color: #8c6a4e;\n        }\n\n        #tool-result {\n            margin-top: 2rem;\n            padding: 1.5rem;\n            background-color: #fffcf8;\n            border: 1px dashed var(--light-accent);\n            border-radius: 4px;\n            min-height: 100px;\n            font-size: 1.05em;\n            line-height: 1.8;\n        }\n\n        .highlight {\n            background-color: #ffe0b2; /* Light orange for problematic terms */\n            padding: 2px 4px;\n            border-radius: 3px;\n        }\n        .key-clause {\n            background-color: #dcedc8; /* Light green for key clauses */\n            padding: 2px 4px;\n            border-radius: 3px;\n        }\n\n        .result-item {\n            margin-bottom: 1em;\n            padding-left: 1.5em;\n            position: relative;\n        }\n        .result-item::before {\n            content: '•';\n            color: var(--accent-color);\n            position: absolute;\n            left: 0;\n        }\n\n        footer {\n            width: 100%;\n            background-color: var(--paper-bg);\n            border-top: 1px solid var(--paper-border);\n            padding: 2rem 0;\n            text-align: center;\n            color: #6a6a6a;\n            font-size: 0.9em;\n            box-shadow: 0 -2px 5px var(--shadow-color);\n        }\n        footer h3 {\n            font-family: var(--font-serif);\n            color: var(--accent-color);\n            font-size: 1.4em;\n            margin-bottom: 1em;\n        }\n        footer p {\n            max-width: 800px;\n            margin: 0.5em auto;\n        }\n        footer a {\n            color: var(--accent-color);\n            text-decoration: none;\n        }\n        footer a:hover {\n            text-decoration: underline;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://analyseur-de-contrats-immobiliers-simplifies-1.onrender.com\">\n    <meta property=\"og:title\" content=\"Analyseur de Contrats Immobiliers Simplifiés\">\n    <meta property=\"og:description\" content=\"Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques.\">\n    <meta property=\"og:url\" content=\"https://analyseur-de-contrats-immobiliers-simplifies-1.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Analyseur de Contrats Immobiliers Simplifiés\", \"description\": \"Comprenez rapidement les clauses clés de vos contrats de location ou de vente. Mettez en surbrillance les termes potentiellement problématiques.\", \"url\": \"https://analyseur-de-contrats-immobiliers-simplifies-1.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"analyseur-de-contrats-immobiliers-simplifies-1\" data-runtime-mode=\"document_generator\">\n    <header>\n        <h1>Analyseur de Contrats Immobiliers Simplifiés</h1>\n        <p>Décodez vos contrats de location ou de vente immobilière. Notre outil met en lumière les clauses essentielles et les points de vigilance, pour une compréhension claire et sans surprise.</p>\n    </header>\n\n    <div class=\"container\">\n        <section id=\"outil-analyse\">\n            <h2>Votre Contrat sous la Loupe</h2>\n            <p>Copiez et collez le texte intégral de votre contrat immobilier (bail de location, compromis de vente, etc.) dans la zone ci-dessous. Nous nous chargeons d'en extraire l'essence.</p>\n            <form id=\"tool-form\">\n                <label for=\"contract-text\">Texte du Contrat :</label>\n                <textarea id=\"contract-text\" placeholder=\"Collez ici le texte de votre contrat...\"></textarea>\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"contract-analysis-submit\">Analyser le Contrat</button>\n            </form>\n\n            <div id=\"tool-result\">\n                <h3 id=\"result-headline\">Résumé de l'Analyse :</h3>\n                <p>Les résultats de l'analyse apparaîtront ici après soumission. Ils mettront en évidence les clauses clés et les termes potentiellement problématiques.</p>\n            </div>\n        </section>\n\n        <section id=\"pourquoi-nous-choisir\">\n            <h2>Pourquoi Utiliser Notre Analyseur ?</h2>\n            <div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;\">\n                <div style=\"background-color: #fff; padding: 1.2rem; border-radius: 4px; border: 1px solid #f0f0e8;\">\n                    <h3 style=\"font-family: var(--font-serif); color: var(--accent-color); margin-top: 0.5rem; font-size: 1.3em;\">Gain de Temps Précieux</h3>\n                    <p>Évitez de passer des heures à déchiffrer un jargon juridique complexe. Obtenez une synthèse en quelques secondes.</p>\n                </div>\n                <div style=\"background-color: #fff; padding: 1.2rem; border-radius: 4px; border: 1px solid #f0f0e8;\">\n                    <h3 style=\"font-family: var(--font-serif); color: var(--accent-color); margin-top: 0.5rem; font-size: 1.3em;\">Sécurité Renforcée</h3>\n                    <p>Identifiez les clauses ambiguës ou désavantageuses avant de vous engager. Agissez en toute connaissance de cause.</p>\n                </div>\n                <div style=\"background-color: #fff; padding: 1.2rem; border-radius: 4px; border: 1px solid #f0f0e8;\">\n                    <h3 style=\"font-family: var(--font-serif); color: var(--accent-color); margin-top: 0.5rem; font-size: 1.3em;\">Décisions Éclairées</h3>\n                    <p>Que vous soyez locataire ou acheteur, notre outil vous donne les moyens de négocier sereinement et efficacement.</p>\n                </div>\n            </div>\n        </section>\n\n        <section id=\"fonctionnement\">\n            <h2>Comment ça Marche ?</h2>\n            <ol style=\"list-style: none; padding: 0;\">\n                <li class=\"result-item\"><strong>Copiez votre contrat :</strong> Prenez le texte complet de votre bail ou promesse de vente.</li>\n                <li class=\"result-item\"><strong>Collez dans l'outil :</strong> Insérez-le dans la zone de texte dédiée ci-dessus.</li>\n                <li class=\"result-item\"><strong>Lancez l'analyse :</strong> Cliquez sur \"Analyser le Contrat\".</li>\n                <li class=\"result-item\"><strong>Consultez les résultats :</strong> Notre système mettra en surbrillance les points clés et les éventuels avertissements.</li>\n            </ol>\n            <p>Notre technologie, inspirée du traitement du langage naturel, est conçue pour simplifier le juridique pour tous.</p>\n        </section>\n    </div>\n\n    <footer>\n        <h3>Simplifiez Vos Transactions Immobilières</h3>\n        <p>Ne signez plus jamais un contrat sans le comprendre pleinement. L'Analyseur de Contrats Immobiliers est votre allié pour des transactions sereines en France.</p>\n        <p>Outils d'aide à la décision pour particuliers et professionnels de l'immobilier en France.</p>\n        <p><strong>Recherches fréquentes :</strong> <a href=\"#\">Analyse bail de location</a>, <a href=\"#\">vérifier compromis de vente</a>, <a href=\"#\">comprendre contrat immobilier</a>, <a href=\"#\">clauses abusives location</a>, <a href=\"#\">outil juridique immobilier gratuit</a>, <a href=\"#\">décodage contrat achat maison</a>, <a href=\"#\">aide lecture contrat immobilier</a>, <a href=\"#\">simulateur clauses immobilières</a>, <a href=\"#\">expert analyse contrat</a>, <a href=\"#\">logiciel vérification bail</a>.</p>\n        <p>&copy; 2024 Analyseur de Contrats Immobiliers. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n            const contractText = document.getElementById('contract-text').value;\n            const resultDiv = document.getElementById('tool-result');\n\n            if (contractText.trim() === '') {\n                resultDiv.innerHTML = '<h3>Résumé de l\\'Analyse :</h3><p style=\"color: red;\">Veuillez coller le texte de votre contrat pour commencer l\\'analyse.</p>';\n                return;\n            }\n\n            // Simple NLP-like simulation for demonstration\n            let analyzedText = contractText;\n            let summaryPoints = [];\n\n            // Define keywords for problematic terms and key clauses\n            const problematicKeywords = [\n                \"pénalités\", \"délais irrévocables\", \"résiliation sans préavis\", \"charges non récupérables\",\n                \"clause de non-concurrence\", \"indemnité d'immobilisation\", \"garantie d'éviction\", \"hypothèque légale\",\n                \"révision annuelle\", \"taxe foncière à la charge du locataire\", \"travaux non remboursés\", \"force majeure non stipulée\"\n            ];\n            const keyClauseKeywords = [\n                \"loyer\", \"durée du bail\", \"dépôt de garantie\", \"date de signature\", \"désignation des parties\",\n                \"objet du contrat\", \"prix de vente\", \"conditions suspensives\", \"date de jouissance\", \"état des lieux\",\n                \"surface habitable\", \"notaire\", \"commission d'agence\", \"diagnostics obligatoires\"\n            ];\n\n            // Highlight problematic terms\n            problematicKeywords.forEach(keyword => {\n                const regex = new RegExp(`(${keyword})`, 'gi');\n                analyzedText = analyzedText.replace(regex, `<span class=\"highlight\">${keyword}</span>`);\n                if (contractText.toLowerCase().includes(keyword)) {\n                    summaryPoints.push(`Terme potentiellement problématique : \"${keyword}\" détecté.`);\n                }\n            });\n\n            // Highlight key clauses and add to summary\n            keyClauseKeywords.forEach(keyword => {\n                const regex = new RegExp(`(${keyword})`, 'gi');\n                analyzedText = analyzedText.replace(regex, `<span class=\"key-clause\">${keyword}</span>`);\n                if (contractText.toLowerCase().includes(keyword)) {\n                    summaryPoints.push(`Clause clé identifiée : \"${keyword}\".`);\n                }\n            });\n\n            // Basic extraction (example: find numbers and currency for rent/price)\n            const loyerMatch = contractText.match(/loyer(?: mensuel)? de\\s*(\\d[\\d\\s]*)\\s*€/i);\n            if (loyerMatch && loyerMatch[1]) {\n                summaryPoints.push(`Loyer mensuel apparent : ${loyerMatch[1].trim()} €.`);\n            }\n\n            const prixVenteMatch = contractText.match(/prix de vente est de\\s*(\\d[\\d\\s]*)\\s*€/i);\n            if (prixVenteMatch && prixVenteMatch[1]) {\n                summaryPoints.push(`Prix de vente apparent : ${prixVenteMatch[1].trim()} €.`);\n            }\n\n            const dureeBailMatch = contractText.match(/durée du bail est de\\s*(\\d+)\\s*(ans|mois)/i);\n            if (dureeBailMatch && dureeBailMatch[1] && dureeBailMatch[2]) {\n                summaryPoints.push(`Durée du bail identifiée : ${dureeBailMatch[1]} ${dureeBailMatch[2]}.`);\n            }\n\n            const depotGarantieMatch = contractText.match(/dépôt de garantie(?: d'un montant)? de\\s*(\\d[\\d\\s]*)\\s*€/i);\n            if (depotGarantieMatch && depotGarantieMatch[1]) {\n                summaryPoints.push(`Dépôt de garantie identifié : ${depotGarantieMatch[1].trim()} €. (Vérifier le nombre de mois de loyer hors charges).`);\n            }\n\n            let summaryHtml = '<h3>Résumé de l\\'Analyse :</h3>';\n            if (summaryPoints.length > 0) {\n                summaryHtml += '<ul>';\n                summaryPoints.forEach(point => {\n                    summaryHtml += `<li class=\"result-item\">${point}</li>`;\n                });\n                summaryHtml += '</ul>';\n            } else {\n                summaryHtml += '<p>Aucune clause clé ou problématique majeure n\\'a été détectée par notre analyse simplifiée. Veuillez lire attentivement l\\'intégralité du contrat.</p>';\n            }\n\n            summaryHtml += '<h4>Texte du contrat avec mises en évidence :</h4>';\n            summaryHtml += `<div style=\"border: 1px solid #ccc; padding: 15px; background-color: #f9f9f9; max-height: 400px; overflow-y: auto;\">${analyzedText.replace(/\\n/g, '<br>')}</div>`;\n\n            resultDiv.innerHTML = summaryHtml;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
